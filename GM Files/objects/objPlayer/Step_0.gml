@@ -4,8 +4,17 @@
 var shoot = mouse_check_button_pressed(mb_left);
 
 // Control
-scrPlayerMovement(self);
 shieldCool += 1;
+
+if (thrust == 1)
+{
+	scrPlayerMovement(self);	
+}
+else
+{
+	x += lengthdir_x(spd, dir);
+	y += lengthdir_y(spd, dir);	
+}
 
 if (shoot == 1)
 {
