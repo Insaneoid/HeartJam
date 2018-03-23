@@ -11,4 +11,3 @@ energy		= 3;
 spd			= 4;
 dir			= 0;
 shieldCool	= 10;
-shootCool	= 7;
