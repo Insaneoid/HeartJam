@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "ec49b93d-0da2-4d3f-8d90-9fc9b9662794",
+            "Value": {
+                "id": "8960ca25-9edc-4ed1-b016-676047b7e2f7",
+                "resourcePath": "scripts\\scrPlayerMovement\\scrPlayerMovement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "eeb9b8fb-d4f9-4817-ad28-07632bb7544d",
@@ -240,7 +248,7 @@
         }
     ],
     "script_order": [
-        
+        "ec49b93d-0da2-4d3f-8d90-9fc9b9662794"
     ],
     "tutorial": ""
 }
