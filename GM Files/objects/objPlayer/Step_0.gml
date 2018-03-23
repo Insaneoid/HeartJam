@@ -1,2 +1,2 @@
 /// @description Control
-
+scrPlayerMovement(self);
