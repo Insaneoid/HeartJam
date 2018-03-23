@@ -1,30 +1,17 @@
-/// scrPlayerMovement(object)
+/// scrPlayerMovement(Object)
 
 // Local Variables
-var cunt		= argument[0];
-var left		= keyboard_check(ord("A"));
-var right		= keyboard_check(ord("D"));
-var forward		= keyboard_check(ord("W"));
-var backward	= keyboard_check(ord("S"));
+var obj			= argument[0];
+var strafe		= keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var drive		= keyboard_check(ord("W")) - keyboard_check(ord("S"));
 
-// Movement
-if (left)
-{
-	cunt.x -= cunt.spd;
-}
-else if (right)
-{
-	cunt.x += cunt.spd;	
-}
-else
-{
-	cunt.x = cunt.x;	
-}
+// Movement and Rotation
+obj.dir	= point_direction(x, y, mouse_x, mouse_y);
 
-if (forward)
-{
-	move_towards_point(mouse_x, mouse_y, cunt.spd);	
-} else if (backward)
-{
-	move_towards_point(mouse_x*-1, mouse_y*-1, cunt.spd);	
-}
+obj.x += lengthdir_x(obj.spd, obj.dir)*drive;
+obj.y += lengthdir_y(obj.spd, obj.dir)*drive;
+
+obj.x += lengthdir_x(obj.spd, obj.dir - 90)*strafe;
+obj.y += lengthdir_y(obj.spd, obj.dir - 90)*strafe;
+
+image_angle = obj.dir - 90;
