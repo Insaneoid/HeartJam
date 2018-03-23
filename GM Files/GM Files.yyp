@@ -34,7 +34,7 @@
             "Key": "015321df-20ea-4699-a1bd-8c53ecc30dae",
             "Value": {
                 "id": "da3f1226-3965-49bb-90e1-2622ce84e9b0",
-                "resourcePath": "sprites\\sprite1\\sprite1.yy",
+                "resourcePath": "sprites\\sprBullet\\sprBullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -143,14 +143,6 @@
             }
         },
         {
-            "Key": "abc39893-b693-4331-b0f8-9704379fc553",
-            "Value": {
-                "id": "72e7a8d0-880c-4f05-8cce-2ea525212434",
-                "resourcePath": "objects\\objBulletE\\objBulletE.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ae35728c-88b7-4853-874a-31c6a5d9c769",
             "Value": {
                 "id": "f4a63bf2-3d7f-4fb1-8a61-c304aed12500",
@@ -196,6 +188,14 @@
                 "id": "851dd098-8749-4bfc-8d51-ec740a8c1954",
                 "resourcePath": "views\\c32846a2-2532-4d44-abdc-902c3119d7f9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c5849249-bf3a-4d9f-b7dd-dec966d23ff0",
+            "Value": {
+                "id": "6308e456-99fe-410c-b948-c2bb49a2df99",
+                "resourcePath": "objects\\objBulletE\\objBulletE.yy",
+                "resourceType": "GMObject"
             }
         },
         {

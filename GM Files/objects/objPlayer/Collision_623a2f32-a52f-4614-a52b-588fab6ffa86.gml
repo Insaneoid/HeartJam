@@ -1,4 +1,5 @@
-/// @description Manage Shield
+/// @description Shield Manage
+
 instance_destroy(other);
 
 if (shield == 0)

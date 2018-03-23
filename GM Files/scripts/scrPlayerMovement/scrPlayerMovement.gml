@@ -3,7 +3,7 @@
 // Local Variables
 var obj			= argument[0];
 var strafe		= keyboard_check(ord("D")) - keyboard_check(ord("A"));
-var drive		= keyboard_check(ord("W")) - keyboard_check(ord("S"));
+var drive		= keyboard_check(ord("W"));
 
 // Movement and Rotation
 with (obj)
