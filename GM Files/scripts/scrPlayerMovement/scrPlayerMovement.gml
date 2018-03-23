@@ -10,20 +10,22 @@ with (obj)
 {
 	if (spd < maxSpd)
 	{
-		spd += acc*drive;	
+		spd += acc*drive;
 	}
 	else
 	{
 		spd = maxSpd*drive;
 	}
 
+	if (drive == 0) {spd = 0;}
+
 	dir	= point_direction(x, y, mouse_x, mouse_y);
 
 	x += lengthdir_x(spd, dir)*drive;
 	y += lengthdir_y(spd, dir)*drive;
 
-	x += lengthdir_x(spd, dir - 90)*strafe;
-	y += lengthdir_y(spd, dir - 90)*strafe;
+	x += lengthdir_x(spdStrafe, dir - 90)*strafe;
+	y += lengthdir_y(spdStrafe, dir - 90)*strafe;
 
 	image_angle = dir - 90;
 }
