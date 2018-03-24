@@ -9,11 +9,7 @@ with (obj)
 {	
 	if (drive != 0)
 	{
-<<<<<<< HEAD
 		if!(audio_is_playing(thrusters) && instance_exists(objPlayer))
-=======
-		if!(audio_is_playing(thrusters))
->>>>>>> 1246fb0b9e2a4d40f28ff55acebd82b266afb5ee
 		{
 			audio_play_sound(thrusters,5,true);
 		}

@@ -25,12 +25,8 @@ if (shoot == 1 && gun = 1)
 }
 else if (shoot == 1 && gun = 2)
 {
-<<<<<<< HEAD
 	instance_create_depth(x, y, 0, objBulletH);
 	audio_play_sound(shooty, 3, false);
-=======
-	instance_create_depth(x, y, 0, objBulletH);	
->>>>>>> 1246fb0b9e2a4d40f28ff55acebd82b266afb5ee
 }
 
 if (shieldA = 1)
