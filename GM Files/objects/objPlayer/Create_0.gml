@@ -1,7 +1,7 @@
 /// @description Initialise Variables
 
 //System
-depth = 0;
+depth	= 0;
 
 // Parts
 gun		= 0;

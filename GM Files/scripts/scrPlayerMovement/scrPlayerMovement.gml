@@ -9,6 +9,10 @@ with (obj)
 {	
 	if (drive != 0)
 	{
+		if!(audio_is_playing(thrusters))
+		{
+			audio_play_sound(thrusters,5,true);
+		}
 		part_particles_create(Sname, x, y, particle1, 4);
 		if (spd < maxSpd)
 		{
@@ -19,6 +23,10 @@ with (obj)
 		{
 			spd = maxSpd;
 		}
+	}
+	else if (audio_is_playing(thrusters))
+	{
+		audio_stop_sound(thrusters);
 	}
 	
 	if !(spd <= 0.025)

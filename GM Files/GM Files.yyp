@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "215b64fa-8340-4160-bb30-d35b5d4110be",
+            "Value": {
+                "id": "b9585ee2-f94d-4835-847f-7b297899eb96",
+                "resourcePath": "sounds\\thrusters\\thrusters.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "285ca792-f4b8-4cd3-a616-d5e657dd6d14",
             "Value": {
                 "id": "4c8a92b8-40fb-457c-91cb-8291effc219a",
