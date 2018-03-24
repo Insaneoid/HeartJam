@@ -5,7 +5,7 @@
     "name": "objEnemy",
     "eventList": [
         {
-            "id": "bdd3f9cd-754f-42ee-b412-dd64cbcc2f04",
+            "id": "37bde2f2-40c4-4c35-ae05-d0b600551d0b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "c7183a68-4cb3-41b1-aa27-cf6791756970"
         },
         {
-            "id": "fbf9b0ba-99f4-4f02-936c-b61a648c2e58",
+            "id": "e069a213-8ab9-43aa-945b-5e3b3b8ac817",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "c7183a68-4cb3-41b1-aa27-cf6791756970"
         },
         {
-            "id": "5acbed2a-30a9-461b-b5d1-fb8730f96b72",
+            "id": "7d1c642c-7865-418f-94ba-97938f1f4b88",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "c7183a68-4cb3-41b1-aa27-cf6791756970"
         },
         {
-            "id": "a7b8a831-78ab-424c-8e72-59017416307e",
+            "id": "78449a58-34d5-4669-9be5-922cf554d33a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
