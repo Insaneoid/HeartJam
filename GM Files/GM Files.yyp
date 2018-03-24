@@ -375,6 +375,22 @@
             }
         },
         {
+            "Key": "f7ee4300-1a0b-49b7-b411-39fb7305b242",
+            "Value": {
+                "id": "4cbe2acf-931d-418d-982c-3410e336b5c6",
+                "resourcePath": "scripts\\scrEnergyManagement\\scrEnergyManagement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f8714ad4-c061-4fbc-8465-d14e81fe7bd3",
+            "Value": {
+                "id": "640db6a1-a44a-4126-a76f-0b7b571663a6",
+                "resourcePath": "objects\\objBulletH\\objBulletH.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f8dd76af-9d42-49b6-8aad-74e31d85f8a6",
             "Value": {
                 "id": "ce7ed175-fc4f-4559-bd39-fd75a895ac2e",
@@ -396,7 +412,8 @@
         "5ce373a4-54ff-45ce-a005-2d73053bf316",
         "0feacae6-7ced-4835-8562-9616057f7efc",
         "28ed5199-7d1b-4660-a151-d36943c10dc8",
-        "1e44b5e7-63a6-40c7-9657-2a93ddba2db0"
+        "1e44b5e7-63a6-40c7-9657-2a93ddba2db0",
+        "f7ee4300-1a0b-49b7-b411-39fb7305b242"
     ],
     "tutorial": ""
 }

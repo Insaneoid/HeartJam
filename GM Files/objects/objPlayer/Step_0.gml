@@ -5,6 +5,7 @@ var shoot = mouse_check_button_pressed(mb_left);
 
 // Control
 shieldCool += 1;
+active	= gun+shield+thrust+scanner;
 
 if (thrust > 0)
 {
@@ -17,38 +18,33 @@ else
 	y += lengthdir_y(spd, dir);	
 }
 
-if (shoot == 1 && gun > 0)
+if (shoot == 1 && gun = 1)
 {
 	instance_create_depth(x, y, 0, objBullet);
 }
-
-if (shieldCool > 10 && shield > 0)
+else if (shoot == 1 && gun = 2)
 {
-	shield = 1;	
+	instance_create_depth(x, y, 0, objBulletH);	
 }
-else
-{	
-	shield = 0;
+
+if (shieldA = 1)
+{
+	if (shieldCool > 10 && shieldO = 1)
+	{
+		shield = 1;	
+	}
+	else if (shieldCool > 10 && shieldO = 2)
+	{
+		shield = 2;	
+	}
+	else
+	{	
+		shield = 0;
+	}
 }
 
 // Energy Management
-
-if (keyboard_check_pressed(vk_up)) 
-{
-	if (gun == 0 && gunO = 1) {gunP = gun; gun = 1} else if (gun > 0 && gunO == 1) {gun = gunP}
-}
-if (keyboard_check_pressed(vk_down))
-{
-	if (thrust == 0 && thrustO = 1) {thrustP = thrust; thrust = 1} else if (thrust > 0 && thrustO == 1) {thrust = thrustP}
-}
-if (keyboard_check_pressed(vk_left))
-{
-	if (shield == 0 && shieldO == 1) {shieldP = shield; shield = 1} else if (shield > 0 && shieldO == 1) {shield = shieldP}
-}
-if (keyboard_check_pressed(vk_right))
-{
-	if (scanner == 0 && scannerO == 1) {scannerP = scanner; scanner = 1} else if (scanner > 0 && scannerO == 1) {scanner = scannerP}
-}
+scrEnergyManagement();
 
 // parallax
 var _cam_x = camera_get_view_x(view_camera[0]) ;

@@ -12,7 +12,7 @@ with (obj)
 		part_particles_create(Sname, x, y, particle1, 4);
 		if (spd < maxSpd)
 		{
-			spd += acc;
+			spd += acc * thrust;
 			objCam.shake = 2.7;
 		}
 		else
