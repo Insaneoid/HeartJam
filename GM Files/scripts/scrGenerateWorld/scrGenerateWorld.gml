@@ -8,14 +8,14 @@ centre_y = room_height div 2;
 radius	 = centre_y + (centre_x div 5);
 radiusP	 = 0
 
-instance_create_depth(centre_x, centre_y, 2, objCam);
+
 instance_create_depth(centre_x, centre_y, 2, objPlayer);
 
 max_enemies = 110;
-max_planets = 8;
-max_parts	= 30;
+max_planets = 1;
+max_parts	= 3000;
 
-for (i = 0; i < 6; i++)
+for (i = 0; i < 5; i++)
 {
 	
 	radiusP	= radius - (centre_x div 5) * i - 1;

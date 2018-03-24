@@ -1,9 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x += (objPlayer.x - x)*0.15;
-y += (objPlayer.y - y)*0.15;
-
+x = objPlayer.x;
+y = objPlayer.y;
 
 viewX = camera_get_view_x(view_camera[0]);
 viewY = camera_get_view_y(view_camera[0]);

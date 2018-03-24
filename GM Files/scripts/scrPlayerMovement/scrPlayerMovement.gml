@@ -9,7 +9,6 @@ with (obj)
 {	
 	if (drive != 0)
 	{
-		part_particles_create(Sname, x, y, particle1, 4);
 		if (spd < maxSpd)
 		{
 			spd += acc;

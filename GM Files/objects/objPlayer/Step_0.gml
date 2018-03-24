@@ -8,8 +8,6 @@ shieldCool += 1;
 
 if (thrust > 0)
 {
-	part_type_direction(particle1,dir+180,dir+180,0,0);
-
 	scrPlayerMovement(self);	
 }
 else
