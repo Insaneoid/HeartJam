@@ -31,11 +31,11 @@ else if (shoot == 1 && gun = 2)
 
 if (shieldA = 1)
 {
-	if (shieldCool > 10 && shieldO = 1)
+	if (shieldCool > 100 && shieldO = 1)
 	{
 		shield = 1;	
 	}
-	else if (shieldCool > 10 && shieldO = 2)
+	else if (shieldCool > 100 && shieldO = 2)
 	{
 		shield = 2;	
 	}

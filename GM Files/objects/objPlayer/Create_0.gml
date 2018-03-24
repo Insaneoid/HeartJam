@@ -2,13 +2,13 @@
 
 //System
 depth	= 0;
-
+killme = noone;
 // Parts
 gun		= 0;
 gunO	= 0;
 
-shield	= 0;
-shieldO = 0;
+shield	= 1;
+shieldO = 1;
 shieldA = 0;
 
 thrust	= 1;
@@ -27,7 +27,7 @@ spd			= 0;
 acc			= 0.15;
 fric		= 0.07;
 dir			= 0;
-shieldCool	= 10;
+shieldCool	= 100;
 
 //particles
 

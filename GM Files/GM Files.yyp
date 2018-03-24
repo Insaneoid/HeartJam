@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "f70aceb1-761f-4efb-8024-dab5ae6c3f77",
+            "Value": {
+                "id": "553820ff-ecb9-447a-a435-c0bf4c653323",
+                "resourcePath": "sprites\\sprShield\\sprShield.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f7ee4300-1a0b-49b7-b411-39fb7305b242",
             "Value": {
                 "id": "9dfd191e-3145-43a6-935e-4ac5d3928c52",
