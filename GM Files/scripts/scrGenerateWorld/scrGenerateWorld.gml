@@ -13,7 +13,7 @@ instance_create_depth(centre_x, centre_y, 2, objPlayer);
 
 max_enemies = 110;
 max_planets = 1;
-max_parts	= 30;
+max_parts	= 3000;
 
 for (i = 0; i < 5; i++)
 {

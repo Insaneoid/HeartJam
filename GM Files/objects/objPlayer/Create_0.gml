@@ -3,12 +3,23 @@
 //System
 
 // Parts
-guns	= 0;
-shield	= 0;
-thrust	= 1;
-scanner	= 0;
+gun		= 0;
+gunP	= 0;
+gunO	= 0;
 
-active	= guns+shield+thrust+scanner;
+shield	= 0;
+shieldP	= 0;
+shieldO = 0;
+
+thrust	= 1;
+thrustP	= 0;
+thrustO = 1;
+
+scanner	= 0;
+scannerP= 0;
+scannerO= 0;
+
+active	= gun+shield+thrust+scanner;
 
 // Stats
 energy		= 3;
