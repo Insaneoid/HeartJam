@@ -7,8 +7,8 @@ killme = noone;
 gun		= 0;
 gunO	= 0;
 
-shield	= 1;
-shieldO = 1;
+shield	= 0;
+shieldO = 0;
 shieldA = 0;
 
 thrust	= 1;

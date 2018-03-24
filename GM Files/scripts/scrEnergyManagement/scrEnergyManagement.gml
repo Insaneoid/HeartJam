@@ -8,6 +8,8 @@ with (objPlayer)
 		gun	= 0;
 		thrust = 0;
 		shield = 0;
+		shieldA= 0;
+		shieldCool = 0;
 		scanner = 0;
 		audio_play_sound(powerDown, 1, false);
 	}
