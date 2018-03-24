@@ -7,23 +7,37 @@ var drive		= keyboard_check(ord("W"));
 
 // Movement and Rotation
 with (obj)
-{
-	if (spd < maxSpd)
+{	
+	if (drive != 0)
 	{
-		spd += acc*drive;
+		if (spd < maxSpd)
+		{
+			spd += acc;
+		}
+		else
+		{
+			spd = maxSpd;
+		}
+	}
+	
+	if !(spd <= 0.025)
+	{
+		spd -= 	fric;
+	}
+	
+	dir	= point_direction(x, y, mouse_x, mouse_y);
+	
+	if (spd != 0)
+	{
+		x += lengthdir_x(spd, dir)
+		y += lengthdir_y(spd, dir)
 	}
 	else
 	{
-		spd = maxSpd*drive;
+		x = x;
+		y = y;
 	}
-
-	if (drive == 0) {spd = 0;}
-
-	dir	= point_direction(x, y, mouse_x, mouse_y);
-
-	x += lengthdir_x(spd, dir)*drive;
-	y += lengthdir_y(spd, dir)*drive;
-
+	
 	x += lengthdir_x(spdStrafe, dir - 90)*strafe;
 	y += lengthdir_y(spdStrafe, dir - 90)*strafe;
 

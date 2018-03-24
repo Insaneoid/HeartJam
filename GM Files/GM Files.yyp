@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "5661a33c-503d-4b70-ba38-7337b9b03de6",
+            "Value": {
+                "id": "183a4468-63ce-41bf-b5fe-f001fe148115",
+                "resourcePath": "objects\\objCam\\objCam.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5df44a8c-dc1c-4ae6-a7a8-d66cf3443aad",
             "Value": {
                 "id": "6a31f540-a7d3-438f-8024-32a6ef04aa7b",
@@ -151,6 +159,22 @@
             }
         },
         {
+            "Key": "9ddb582e-6900-445b-9da9-3103d6ed37c6",
+            "Value": {
+                "id": "5770d6bc-a614-4756-80cb-0b93b04d7bda",
+                "resourcePath": "sprites\\sprPart\\sprPart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9de0f068-ac0d-4470-a25f-4b06033ee580",
+            "Value": {
+                "id": "118af966-de4e-4f4d-b02e-fad137162dc4",
+                "resourcePath": "objects\\objPlayer\\objPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a1e4473d-765c-4cf2-9480-6ce9025eb771",
             "Value": {
                 "id": "68e4fb65-5306-49b7-92bb-2e950351be93",
@@ -188,14 +212,6 @@
                 "id": "132c4250-90d1-45a2-bbd2-59dc151302d5",
                 "resourcePath": "views\\b32bbd90-547b-48dd-b2a5-b18f4d8b605f.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "bdd05515-4e86-4500-83c3-694035e486d6",
-            "Value": {
-                "id": "7e8b4788-773b-4ffa-8541-cc3f4e38ea91",
-                "resourcePath": "objects\\objPlayer\\objPlayer.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -287,9 +303,9 @@
             }
         },
         {
-            "Key": "ec49b93d-0da2-4d3f-8d90-9fc9b9662794",
+            "Key": "ef4d63c5-eb1e-478e-b386-740a94715f25",
             "Value": {
-                "id": "8960ca25-9edc-4ed1-b016-676047b7e2f7",
+                "id": "bacd0f57-b63b-4015-8f8a-db7e3b5685cf",
                 "resourcePath": "scripts\\scrPlayerMovement\\scrPlayerMovement.yy",
                 "resourceType": "GMScript"
             }
@@ -312,7 +328,8 @@
         }
     ],
     "script_order": [
-        "ec49b93d-0da2-4d3f-8d90-9fc9b9662794"
+        "856225c7-e684-4201-ac7f-fdba14fe9a8d",
+        "ef4d63c5-eb1e-478e-b386-740a94715f25"
     ],
     "tutorial": ""
 }

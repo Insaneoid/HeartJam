@@ -5,42 +5,62 @@ randomise()
 centre_x = room_width div 2;
 centre_y = room_height div 2;
 
-radius = 0;
+radius	 = centre_y + (centre_x div 5);
+radiusP	 = 0
+
 
 instance_create_depth(centre_x, centre_y, 2, objPlayer);
 
-odds_enemy	= 10;
-odds_part	= 70;
-odds_planet = 100;
-
-max_enemies = 50;
-max_planets = 100;
+max_enemies = 110;
+max_planets = 1;
 max_parts	= 30;
 
-for (var i = 0; i < 3; i++)
-	radius = radius * 3 + 200;
-for (var j = 0; j < max_enemies; j++)
+for (i = 0; i < 5; i++)
 {
-	x_rand = centre_x + irandom_range(-radius, radius);
-	y_rand = centre_y + irandom_range(-radius, radius);
 	
-	if (odds_enemy - (i * 2) = irandom(odds_enemy - (i * 2)) && place_free(x_rand, y_rand))
+	radiusP	= radius - (centre_x div 5) * i - 1;
+	
+	//enemies
+	for (var j = 0; j < max_enemies; j++)
 	{
-		instance_create_depth(x_rand, y_rand, -5, objEnemy)
+		var len	  = irandom_range(radius, radiusP);
+		var dir   = random_range(0, 359);
+		var x_pos = lengthdir_x(len, dir) + centre_x;
+		var y_pos = lengthdir_y(len, dir) + centre_y;
+	
+		instance_create_depth(x_pos, y_pos, -5, objEnemy);
 	}
-}
-
-radius = 0;
-
-for (var i = 0; i < 3; i++)
-	radius = radius * 3 + 2100;
-for (var j = 0; j < max_planets; j++)
-{
-	x_rand = centre_x + irandom_range(-radius, radius);
-	y_rand = centre_y + irandom_range(-radius, radius);
-	
-	if (odds_planet - (i * 5) = irandom(odds_planet - (i * 5)) && place_free(x_rand, y_rand))
+	//planets 
+	for (var j = 0; j < max_planets; j++)
 	{
-		instance_create_depth(x_rand, y_rand, -10, objPlanet)
+		var len	  = irandom_range(radius, radiusP);
+		var dir   = random_range(0, 359);
+		var x_pos = lengthdir_x(len, dir) + centre_x;
+		var y_pos = lengthdir_y(len, dir) + centre_y;
+		min_p = false
+		
+		if (i < 2)
+		{
+			instance_create_depth(x_pos, y_pos, 0, objPlanet);
+			min_p = true;
+		}
+		if (min_p == false)
+		{
+			instance_create_depth(x_pos, y_pos, 0, objPlanet);
+		}
+	}
+	
+	//parts
+	for (var j = 0; j < max_parts; j++)
+	{
+		var len	  = irandom_range(radius, radiusP);
+		var dir   = random_range(0, 359);
+		var x_pos = lengthdir_x(len, dir) + centre_x;
+		var y_pos = lengthdir_y(len, dir) + centre_y;
+		var odds  = 10;
+		if (irandom(odds) == odds)
+		{
+			instance_create_depth(x_pos, y_pos, -5, objParts);
+		}
 	}
 }
