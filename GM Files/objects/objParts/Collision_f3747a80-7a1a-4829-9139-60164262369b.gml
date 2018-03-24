@@ -1,12 +1,8 @@
 /// @description Manage Equip
 
-if distance_to_point(objPlayer.x, objPlayer.y < 20)
+if (objPlayer.scanner == 1)
 {
-	identify = 1;
-}
-else
-{
-	identify = 0;
+	scrTextBox("Spacebar:" + string(item), 1, x, y);
 }
 
 with (other)
