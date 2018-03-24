@@ -3,11 +3,11 @@ draw_sprite(sprHud, 0, 0, 1526-275);
 //Lights on hud
 if (instance_exists(objPlayer))
 {
-	if (objPlayer.shield > 0) 
+	if (objPlayer.shieldA > 0) 
 	{
 		shieldL = draw_sprite(sprHudLight, 0, 0, 1526-275);
 	}
-	else if (sprite_exists(shieldL) && objPlayer.shield == 0)
+	else if (sprite_exists(shieldL) && objPlayer.shieldA == 0)
 	{
 		sprite_delete(shieldL);
 	}
