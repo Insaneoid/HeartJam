@@ -5,7 +5,7 @@
     "name": "objParts",
     "eventList": [
         {
-            "id": "9f9c934a-6b55-43cd-b065-b5e2a000279a",
+            "id": "3a387b08-261c-4148-bd8a-aaace8779bf3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,17 +15,7 @@
             "m_owner": "4b74e87c-5ba1-4625-be70-a9dc3f9676e9"
         },
         {
-            "id": "229120f6-17a7-4622-ba5d-7dcf4245e938",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "9de0f068-ac0d-4470-a25f-4b06033ee580",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "4b74e87c-5ba1-4625-be70-a9dc3f9676e9"
-        },
-        {
-            "id": "96b60240-76dd-471b-97a9-0343f5b98482",
+            "id": "ce0bd012-1696-4899-a713-7a84aca962eb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
