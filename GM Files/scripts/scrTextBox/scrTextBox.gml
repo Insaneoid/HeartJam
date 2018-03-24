@@ -1,6 +1,6 @@
 //scrTextBox("Text",speed,x,y);
 
-txt = instance_create_depth(argument2,argument3,0, obj_text);
+var txt = instance_create_depth(argument2,argument3,0, objText);
 with (txt)
 {
     padding = 16;

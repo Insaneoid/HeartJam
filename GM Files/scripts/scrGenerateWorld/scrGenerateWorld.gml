@@ -11,9 +11,9 @@ radiusP	 = 0
 instance_create_depth(centre_x, centre_y, 2, objCam);
 instance_create_depth(centre_x, centre_y, 2, objPlayer);
 
-max_enemies = 110;
+max_enemies = 40;
 max_planets = 8;
-max_parts	= 30;
+max_parts	= 2310;
 
 for (i = 0; i < 6; i++)
 {

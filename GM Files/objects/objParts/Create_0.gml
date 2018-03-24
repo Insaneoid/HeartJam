@@ -1,8 +1,7 @@
 /// @description 
-
+dir = irandom(359);
 loot = irandom(100);
 item = "Nothing";
-identify = 0;
 
 if (loot <= 32)
 {

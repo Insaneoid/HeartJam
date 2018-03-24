@@ -9,10 +9,14 @@ with (obj)
 {	
 	if (drive != 0)
 	{
+		if!(audio_is_playing(thrusters) && instance_exists(objPlayer))
+		{
+			audio_play_sound(thrusters,5,true);
+		}
 		part_particles_create(Sname, x, y, particle1, 4);
 		if (spd < maxSpd)
 		{
-			spd += acc;
+			spd += acc * thrust;
 			objCam.shake = 2.7;
 		}
 		else
@@ -20,10 +24,14 @@ with (obj)
 			spd = maxSpd;
 		}
 	}
+	else if (audio_is_playing(thrusters))
+	{
+		audio_stop_sound(thrusters);
+	}
 	
 	if !(spd <= 0.025)
 	{
-		spd -= 	fric;
+		spd -= 	fric * thrust;
 	}
 	
 	dir	= point_direction(x, y, mouse_x, mouse_y);
