@@ -72,6 +72,17 @@
         },
         {
             "Key": "215b64fa-8340-4160-bb30-d35b5d4110be",
+<<<<<<< HEAD
+=======
+            "Value": {
+                "id": "b9585ee2-f94d-4835-847f-7b297899eb96",
+                "resourcePath": "sounds\\thrusters\\thrusters.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "285ca792-f4b8-4cd3-a616-d5e657dd6d14",
+>>>>>>> 1246fb0b9e2a4d40f28ff55acebd82b266afb5ee
             "Value": {
                 "id": "edeac3db-bd64-4b59-8396-06b8b1dc3311",
                 "resourcePath": "sounds\\thrusters\\thrusters.yy",
@@ -223,6 +234,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "8af0a934-25c8-406e-ab43-ecf8ee423ea7",
             "Value": {
                 "id": "7ca573a7-97f7-44b2-86ff-c0cd54728e67",
@@ -231,6 +243,8 @@
             }
         },
         {
+=======
+>>>>>>> 1246fb0b9e2a4d40f28ff55acebd82b266afb5ee
             "Key": "9ddb582e-6900-445b-9da9-3103d6ed37c6",
             "Value": {
                 "id": "5770d6bc-a614-4756-80cb-0b93b04d7bda",
@@ -424,6 +438,25 @@
         },
         {
             "Key": "f7ee4300-1a0b-49b7-b411-39fb7305b242",
+<<<<<<< HEAD
+=======
+            "Value": {
+                "id": "4cbe2acf-931d-418d-982c-3410e336b5c6",
+                "resourcePath": "scripts\\scrEnergyManagement\\scrEnergyManagement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f8714ad4-c061-4fbc-8465-d14e81fe7bd3",
+            "Value": {
+                "id": "640db6a1-a44a-4126-a76f-0b7b571663a6",
+                "resourcePath": "objects\\objBulletH\\objBulletH.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f8dd76af-9d42-49b6-8aad-74e31d85f8a6",
+>>>>>>> 1246fb0b9e2a4d40f28ff55acebd82b266afb5ee
             "Value": {
                 "id": "9dfd191e-3145-43a6-935e-4ac5d3928c52",
                 "resourcePath": "scripts\\scrEnergyManagement\\scrEnergyManagement.yy",
@@ -449,9 +482,17 @@
     ],
     "script_order": [
         "856225c7-e684-4201-ac7f-fdba14fe9a8d",
+<<<<<<< HEAD
         "f7ee4300-1a0b-49b7-b411-39fb7305b242",
         "6cbe1933-1c94-481d-9de0-17f227725f6d",
         "7e6a7278-a8dc-415c-852a-31c92b67a1c5"
+=======
+        "5ce373a4-54ff-45ce-a005-2d73053bf316",
+        "0feacae6-7ced-4835-8562-9616057f7efc",
+        "28ed5199-7d1b-4660-a151-d36943c10dc8",
+        "1e44b5e7-63a6-40c7-9657-2a93ddba2db0",
+        "f7ee4300-1a0b-49b7-b411-39fb7305b242"
+>>>>>>> 1246fb0b9e2a4d40f28ff55acebd82b266afb5ee
     ],
     "tutorial": ""
 }
