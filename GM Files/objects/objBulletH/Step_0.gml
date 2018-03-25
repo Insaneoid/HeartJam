@@ -3,12 +3,12 @@ if (instance_exists(target))
 {
 	if (distance_to_point(target.x, target.y) <= 400)
 	{
-		move_towards_point(target.x, target.y, 20)
+		move_towards_point(target.x, target.y, 16)
 	}
 	else
 	{
-		x += lengthdir_x(20, dir);
-		y += lengthdir_y(20, dir);
+		x += lengthdir_x(16, dir);
+		y += lengthdir_y(16, dir);
 	}
 }
 else
