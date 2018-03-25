@@ -2,9 +2,9 @@
 
 if (instance_exists(objPlayer))
 {
-	if (distance_to_point(objPlayer.x, objPlayer.y) < 400)
+	if (distance_to_point(objPlayer.x, objPlayer.y) < 400 * (1+(1 div objPlayer.active)))
 	{
-		if (distance_to_point(objPlayer.x, objPlayer.y) >= 200)
+		if (distance_to_point(objPlayer.x, objPlayer.y) >= 200 * (1+(1 div objPlayer.active)))
 		{
 			move_towards_point(objPlayer.x, objPlayer.y, spd);
 		}

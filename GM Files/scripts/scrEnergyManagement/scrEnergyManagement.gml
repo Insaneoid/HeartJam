@@ -3,7 +3,7 @@ with (objPlayer)
 {
 	energy = energyMax - active;
 	
-	if (energy < 0)
+	if (energy < -1)
 	{
 		gun	= 0;
 		thrust = 0;

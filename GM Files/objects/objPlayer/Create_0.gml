@@ -8,14 +8,14 @@ gun		= 0;
 gunO	= 1;
 
 shield	= 0;
-shieldO = 0;
+shieldO = 1;
 shieldA = 0;
 
 thrust	= 1;
 thrustO = 1;
 
 scanner	= 0;
-scannerO= 0;
+scannerO= 1;
 
 active	= gun+shield+thrust+scanner;
 killme	= noone;

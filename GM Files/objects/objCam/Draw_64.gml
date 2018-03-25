@@ -66,22 +66,22 @@ if (instance_exists(objPlayer))
 		sprite_delete(gunL);
 	}
 	
-	if (objPlayer.energy == 3)
+	if (objPlayer.energy == 2)
 	{
 		draw_sprite(sprHudPower, 0, 0, 1526-275);
 	}
 	
-	if (objPlayer.energy == 2)
+	if (objPlayer.energy == 1)
 	{
 		draw_sprite(sprHudPower, 1, 0, 1526-275);
 	}
 	
-		if (objPlayer.energy == 1)
+		if (objPlayer.energy == 0)
 	{
 		draw_sprite(sprHudPower, 2, 0, 1526-275);
 	}
 	
-		if (objPlayer.energy == 0)
+		if (objPlayer.energy == -1)
 	{
 		draw_sprite(sprHudPower, 3, 0, 1526-275);
 	}

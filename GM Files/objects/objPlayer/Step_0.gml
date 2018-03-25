@@ -5,7 +5,7 @@ var shoot = mouse_check_button_pressed(mb_left);
 
 // Control
 shieldCool += 1;
-active	= gun+shield+thrust+scanner;
+active	= 1+gun+shield+thrust+scanner;
 
 if (thrust > 0)
 {
