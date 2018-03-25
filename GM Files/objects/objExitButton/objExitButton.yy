@@ -5,7 +5,11 @@
     "name": "objExitButton",
     "eventList": [
         {
+<<<<<<< HEAD
             "id": "34b9934f-667c-4f18-a191-430614ce7f55",
+=======
+            "id": "f31a09af-99df-4414-85cc-e075fefd46cc",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +19,11 @@
             "m_owner": "226720e7-9d5f-48a0-b097-d252facf55e8"
         },
         {
+<<<<<<< HEAD
             "id": "799aff83-7eb8-465b-a7e4-6567338e4449",
+=======
+            "id": "15636485-2739-4603-b877-797d4bd3393f",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +33,11 @@
             "m_owner": "226720e7-9d5f-48a0-b097-d252facf55e8"
         },
         {
+<<<<<<< HEAD
             "id": "90a64ebd-3a92-41b1-b259-fd14ba4961f8",
+=======
+            "id": "786f6e7f-ae17-4c12-8217-c0e123c9c928",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +47,11 @@
             "m_owner": "226720e7-9d5f-48a0-b097-d252facf55e8"
         },
         {
+<<<<<<< HEAD
             "id": "a3560a11-da82-4043-a169-de9e11b36338",
+=======
+            "id": "ed7181b8-9fe5-41aa-b308-3c5b46d53992",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -45,7 +61,11 @@
             "m_owner": "226720e7-9d5f-48a0-b097-d252facf55e8"
         },
         {
+<<<<<<< HEAD
             "id": "8440060b-9af4-4454-b54e-8df73b1ea50e",
+=======
+            "id": "f32e1525-729e-493e-a78c-e084adc09eef",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

@@ -65,7 +65,11 @@
         {
             "Key": "182af657-3076-4a73-8588-4ede07997b8d",
             "Value": {
+<<<<<<< HEAD
                 "id": "e4cae603-7110-4b78-9b7c-ede694af21bf",
+=======
+                "id": "c7f6395c-3d4c-4522-bfb3-60e1a4e88377",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "sprites\\sprScoreN\\sprScoreN.yy",
                 "resourceType": "GMSprite"
             }
@@ -73,7 +77,11 @@
         {
             "Key": "19c770e9-efc1-4ef6-ae89-272d5d753ba5",
             "Value": {
+<<<<<<< HEAD
                 "id": "c474d87d-8027-4c18-8612-110da490a6e1",
+=======
+                "id": "ee36214b-f469-418e-a119-96a83298f7fa",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "sprites\\sprStartS\\sprStartS.yy",
                 "resourceType": "GMSprite"
             }
@@ -97,7 +105,11 @@
         {
             "Key": "226720e7-9d5f-48a0-b097-d252facf55e8",
             "Value": {
+<<<<<<< HEAD
                 "id": "4b7cfd4c-2233-4b54-a95b-ceacdf898a06",
+=======
+                "id": "8ecb7dc2-383e-4855-b96b-067faba962c8",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "objects\\objExitButton\\objExitButton.yy",
                 "resourceType": "GMObject"
             }
@@ -153,7 +165,11 @@
         {
             "Key": "422123f9-2ec6-4a4c-8c1b-0cd591fee512",
             "Value": {
+<<<<<<< HEAD
                 "id": "68171687-7a29-4da9-b51b-24a5178fee07",
+=======
+                "id": "10da2c42-7f84-4292-bc45-1c46a7fc284f",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "rooms\\rmMenu\\rmMenu.yy",
                 "resourceType": "GMRoom"
             }
@@ -169,12 +185,17 @@
         {
             "Key": "4ef883ab-b422-4540-89ad-6e2fa3c41d8f",
             "Value": {
+<<<<<<< HEAD
                 "id": "d695a8e0-3dfa-49b7-84c0-2f979aa18e71",
+=======
+                "id": "3a566dd8-7af2-4b12-bab5-6015a6c29051",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "sprites\\sprScoreS\\sprScoreS.yy",
                 "resourceType": "GMSprite"
             }
         },
         {
+<<<<<<< HEAD
             "Key": "53f8a300-59e4-44bb-a34d-7b69060e954e",
             "Value": {
                 "id": "c08405e8-b56c-4316-9a77-ef945cc0b0c7",
@@ -183,6 +204,8 @@
             }
         },
         {
+=======
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
             "Key": "59136dc4-59e1-4d2f-95c9-76a9e71d48ec",
             "Value": {
                 "id": "70476f43-1ed2-4994-94b8-9a75823c5dbc",
@@ -313,7 +336,11 @@
         {
             "Key": "9f2a2533-7574-4395-bc14-1a2112da3a05",
             "Value": {
+<<<<<<< HEAD
                 "id": "7b45f911-9d39-4aa0-bd1c-e15939962375",
+=======
+                "id": "9b92ddf2-c1a3-4f1c-9601-822ce7dc0762",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "sprites\\sprStartN\\sprStartN.yy",
                 "resourceType": "GMSprite"
             }
@@ -321,7 +348,11 @@
         {
             "Key": "a0d925a8-c801-4282-bd6b-162c55fcff38",
             "Value": {
+<<<<<<< HEAD
                 "id": "058c1511-9cac-4842-a8be-3943f3807c3a",
+=======
+                "id": "672d8cb7-5781-4bc6-9358-989f85b69d1e",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "objects\\objScoreButton\\objScoreButton.yy",
                 "resourceType": "GMObject"
             }
@@ -391,6 +422,7 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "bc0f2707-096d-4127-b1b6-433d5d9e00df",
             "Value": {
                 "id": "1b89585f-bf74-4bbc-b95b-a21c08d6f509",
@@ -402,6 +434,11 @@
             "Key": "bc8c7d14-a205-41ce-b61f-b839dba5ecdb",
             "Value": {
                 "id": "28baf4d0-2956-46b2-9ccb-a21a5891095d",
+=======
+            "Key": "bc8c7d14-a205-41ce-b61f-b839dba5ecdb",
+            "Value": {
+                "id": "e8a11446-05f5-4401-b36a-2045b646273a",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "objects\\objStartButton\\objStartButton.yy",
                 "resourceType": "GMObject"
             }
@@ -441,7 +478,11 @@
         {
             "Key": "c6b3cbfd-a308-4fc8-9cb0-8da752f6d7ae",
             "Value": {
+<<<<<<< HEAD
                 "id": "461f1b65-e3f4-4311-bf5b-5cc977596399",
+=======
+                "id": "814c3569-7f9a-44b7-8f3d-a4f7a20e84ad",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "objects\\objScore\\objScore.yy",
                 "resourceType": "GMObject"
             }
@@ -465,7 +506,11 @@
         {
             "Key": "cb26b865-eab4-412e-a026-2244609253e8",
             "Value": {
+<<<<<<< HEAD
                 "id": "3168cafd-c468-4520-b56b-d10d4d388880",
+=======
+                "id": "68fab020-0c5b-4c50-b09b-c37c3d45b268",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "sprites\\sprExitS\\sprExitS.yy",
                 "resourceType": "GMSprite"
             }
@@ -473,7 +518,11 @@
         {
             "Key": "cc6fd780-7bf2-49d9-a1ac-dc15af4d1d1e",
             "Value": {
+<<<<<<< HEAD
                 "id": "4d3f8335-d76a-4052-b733-4885820ef9da",
+=======
+                "id": "fd3ea7b8-ee27-476c-8ba4-0ec532f70052",
+>>>>>>> 569f7d7149cc0860a18800021eb8d69552fb2537
                 "resourcePath": "sprites\\sprExitN\\sprExitN.yy",
                 "resourceType": "GMSprite"
             }
