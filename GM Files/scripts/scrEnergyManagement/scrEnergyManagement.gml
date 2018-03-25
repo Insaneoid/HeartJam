@@ -21,7 +21,7 @@ with (objPlayer)
 			gun = gunO;
 			audio_play_sound(clickOn, 2, false);
 		} 
-		else if (gun > 1 && gunO > 0) 
+		else if (gun > 0 && gunO > 0) 
 		{
 			gun = 0;
 			audio_play_sound(clickOff, 2, false);

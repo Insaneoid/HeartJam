@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "5f549189-0f71-4e8a-9d78-24c8bbb332cb",
+            "Value": {
+                "id": "2e4eb870-dc61-4e9e-8b72-17324bfa1190",
+                "resourcePath": "objects\\objAsteroidS\\objAsteroidS.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5fefdac3-5ef5-40a2-bfff-2cc74245bbf0",
             "Value": {
                 "id": "5ec36322-c00f-43f5-ba2f-665f2644464b",
@@ -300,6 +308,14 @@
                 "id": "08dc6b78-c96c-4f47-8aaf-9993a9cacc10",
                 "resourcePath": "scripts\\scrEnergyManagement\\scrEnergyManagement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "906d55de-ad95-4838-9b07-7375f154a63b",
+            "Value": {
+                "id": "88e0dc5c-839e-407a-ad1c-e47224d1b601",
+                "resourcePath": "objects\\objAsteroid\\objAsteroid.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -492,6 +508,14 @@
                 "id": "d06d2f4c-b1ee-48f1-a908-90edd9841292",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd958a06-95f0-4198-aab9-42c181fd1604",
+            "Value": {
+                "id": "a6ee5083-53f6-4152-bcb2-fc3f87130543",
+                "resourcePath": "sprites\\sprAsteroid\\sprAsteroid.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

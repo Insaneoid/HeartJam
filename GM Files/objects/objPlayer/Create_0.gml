@@ -5,7 +5,7 @@ depth	= 0;
 
 // Parts
 gun		= 0;
-gunO	= 0;
+gunO	= 1;
 
 shield	= 0;
 shieldO = 0;
