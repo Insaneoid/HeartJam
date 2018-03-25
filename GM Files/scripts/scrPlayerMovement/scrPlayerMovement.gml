@@ -9,9 +9,13 @@ with (obj)
 {	
 	if (drive != 0)
 	{
-		if!(audio_is_playing(thrusters) && instance_exists(objPlayer))
+		if!(audio_is_playing(thrusters))
 		{
+			if (thrust > 0)
+			{
 			audio_play_sound(thrusters,5,true);
+			}
+
 		}
 		part_particles_create(Sname, x, y, particle1, 4);
 		if (spd < maxSpd)

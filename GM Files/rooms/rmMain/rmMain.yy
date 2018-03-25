@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_main",
+    "name": "rmMain",
     "id": "a1e4473d-765c-4cf2-9480-6ce9025eb771",
     "creationCodeFile": "",
     "inheritCode": false,

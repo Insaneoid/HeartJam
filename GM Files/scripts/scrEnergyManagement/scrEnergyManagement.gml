@@ -44,7 +44,7 @@ with (objPlayer)
 	
 	if (keyboard_check_pressed(vk_left))
 	{
-		if (shield == 0 && shieldO > 0) 
+		if (shield == 0 && shieldO > 0 && shieldCool > 10) 
 		{ 
 			shield = shieldO;
 			audio_play_sound(clickOn, 2, false);

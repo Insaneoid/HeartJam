@@ -1,7 +1,9 @@
 /// @description 
-dir = irandom(359);
+dir  = irandom(359);
+spd  = irandom_range(0.1, 0.5) +0.1;
 loot = irandom(100);
 item = "Nothing";
+pick = false;
 
 if (loot <= 32)
 {

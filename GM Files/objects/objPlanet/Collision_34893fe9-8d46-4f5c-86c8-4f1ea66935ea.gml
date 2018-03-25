@@ -2,5 +2,8 @@
 
 if (other.scanner == 1)
 {
-	scrTextBox("Score with Spacebar: " + habit, 1, x, y);	
+	if !(instance_exists(objText))
+	{
+	scrTextBox("Habitability: " + string(habit) + "%\nPress Space to settle here", 1, x, y);	
+	}
 }

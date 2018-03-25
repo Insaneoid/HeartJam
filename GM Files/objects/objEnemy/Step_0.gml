@@ -2,7 +2,7 @@
 
 if (instance_exists(objPlayer))
 {
-	if (distance_to_point(objPlayer.x, objPlayer.y) > 400)
+	if (distance_to_point(objPlayer.x, objPlayer.y) < 400)
 	{
 		if (distance_to_point(objPlayer.x, objPlayer.y) >= 200)
 		{

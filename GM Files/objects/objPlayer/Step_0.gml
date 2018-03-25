@@ -16,6 +16,7 @@ else
 {
 	x += lengthdir_x(spd, dir);
 	y += lengthdir_y(spd, dir);	
+	audio_stop_sound(thrusters);
 }
 
 if (shoot == 1 && gun = 1)
@@ -55,3 +56,10 @@ layer_x("backgrounds_2", _cam_x * 0.25);
 layer_y("backgrounds_2", _cam_y * 0.25);
 layer_x("backgrounds_3", _cam_x * 0.5);
 layer_y("backgrounds_3", _cam_y * 0.5);
+
+//pickup noise
+
+if (objParts.pick == true)
+{
+	audio_play_sound(pickup, 50, false);
+}

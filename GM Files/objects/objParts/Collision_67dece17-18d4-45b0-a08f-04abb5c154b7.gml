@@ -2,13 +2,17 @@
 
 if (objPlayer.scanner == 1)
 {
-	scrTextBox("Spacebar:" + string(item), 1, x, y);
+	if !(instance_exists(objText))
+	{
+		scrTextBox("Spacebar: " + string(item), 1, x, y);
+	}
 }
 
 with (other)
 {
 	if (keyboard_check_pressed(vk_space))
 	{
+		pick = true;
 		switch (other.item)
 		{
 			case "Gun":
