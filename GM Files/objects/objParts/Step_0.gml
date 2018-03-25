@@ -10,3 +10,7 @@ if (pick == true)
 {
 	audio_play_sound(pickup, 5, true);
 }
+if (distance_to_object(objPlayer) < 500)
+{
+	part_particles_create(Sname, x, y, particle1, 1);
+}

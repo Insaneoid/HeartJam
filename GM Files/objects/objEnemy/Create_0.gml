@@ -20,3 +20,13 @@ part_type_direction(particle1,0,359,0,0);
 part_type_blend(particle1,1);
 part_type_life(particle1,15,50);
 
+ particle2 = part_type_create();
+part_type_shape(particle2,pt_shape_smoke);
+part_type_size(particle2,0.10,0.10,-0.10,1);
+part_type_scale(particle2,0.80,0.80);
+part_type_color3(particle2,16711680,16776960,8421504);
+part_type_alpha1(particle2,0.50);
+part_type_orientation(particle2,0,0,0,0,1);
+part_type_blend(particle2,1);
+part_type_life(particle2,30,30);
+

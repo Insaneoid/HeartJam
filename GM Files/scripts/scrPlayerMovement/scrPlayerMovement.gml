@@ -17,7 +17,7 @@ with (obj)
 			}
 
 		}
-		part_particles_create(Sname, x, y, particle1, 4);
+		part_particles_create(Sname1, x, y, particle1, 4);
 		if (spd < maxSpd)
 		{
 			spd += acc * thrust;

@@ -1,5 +1,13 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Camera Control
+
+cameraWidth = camera_get_view_width(view_camera[0]);
+cameraHeight = camera_get_view_height(view_camera[0]);
+
+if (cameraWidth > 512 || cameraHeight > 384)
+{
+	camera_set_view_size(view_camera[0], cameraWidth*0.93, cameraHeight*0.93);
+}
+
 if (instance_exists(objPlayer))
 {
 	x += (objPlayer.x - x)*0.15;

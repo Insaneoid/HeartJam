@@ -1,11 +1,11 @@
 /// @description Initialise Variables
 
 //System
-depth	= 0;
+depth	= -10;
 
 // Parts
 gun		= 0;
-gunO	= 0;
+gunO	= 1;
 
 shield	= 0;
 shieldO = 0;
@@ -14,8 +14,8 @@ shieldA = 0;
 thrust	= 1;
 thrustO = 1;
 
-scanner	= 0;
-scannerO= 0;
+scanner	= 1;
+scannerO= 1;
 
 active	= gun+shield+thrust+scanner;
 killme	= noone;
@@ -53,4 +53,5 @@ part_type_blend(particle0,1);
 part_type_life(particle0,15,50);
 
 
-Sname = part_system_create();
+Sname1 = part_system_create();
+

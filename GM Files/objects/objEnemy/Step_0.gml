@@ -26,6 +26,11 @@ if (instance_exists(objPlayer))
 
 cooldown -= 1;
 
+if (distance_to_object(objPlayer) < 500)
+{
+	part_particles_create(Sname, x, y, particle1, 1);
+}
+
 
 
 

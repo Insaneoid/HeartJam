@@ -11,9 +11,10 @@ radiusP	 = 0
 instance_create_depth(centre_x, centre_y, 2, objCam);
 instance_create_depth(centre_x, centre_y, 2, objPlayer);
 
-max_enemies = 40;
-max_planets = 50;
-max_parts	= 4310;
+max_enemies		= 40;
+max_planets		= 50;
+max_parts		= 30;
+max_asteroids	= 125;
 
 for (i = 0; i < 6; i++)
 {
@@ -62,5 +63,15 @@ for (i = 0; i < 6; i++)
 		{
 			instance_create_depth(x_pos, y_pos, -5, objParts);
 		}
+	}
+	//asteroids
+	for (var j = 0; j < max_asteroids; j++)
+	{
+		var len	  = irandom_range(radius, radiusP);
+		var dir   = random_range(0, 359);
+		var x_pos = lengthdir_x(len, dir) + centre_x;
+		var y_pos = lengthdir_y(len, dir) + centre_y;
+
+		instance_create_depth(x_pos, y_pos, -5, objAsteroid);
 	}
 }
