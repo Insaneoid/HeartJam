@@ -13,6 +13,14 @@ if (instance_exists(objPlayer))
 	x += (objPlayer.x - x)*0.15;
 	y += (objPlayer.y - y)*0.15;
 }
+else
+{
+	scrTextBox("Bad Luck.\nYou have died.\n Press Space to return to menu.", 0.7, x, y);
+	if (keyboard_check_pressed(vk_space))
+	{
+		game_restart();
+	}
+}
 
 
 viewX = camera_get_view_x(view_camera[0]);

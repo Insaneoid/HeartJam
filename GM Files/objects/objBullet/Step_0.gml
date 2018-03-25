@@ -14,3 +14,8 @@ part_type_blend(particle1,1);
 part_type_life(particle1,1,7);
 
 part_particles_create(Sname, x, y, particle1, 10);
+
+if (distance_to_object(objPlayer) > 500)
+{
+	instance_destroy()
+}

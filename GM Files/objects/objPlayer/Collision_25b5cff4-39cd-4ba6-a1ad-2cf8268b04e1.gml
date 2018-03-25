@@ -5,7 +5,9 @@ instance_destroy(other);
 
 if (shield == 0)
 {
-	instance_destroy();	
+	instance_destroy();
+	part_particles_create(Sname1, x, y, particle0, 30);
+	audio_play_sound(explosion, 10, false);
 }
 
 shield -= 1;

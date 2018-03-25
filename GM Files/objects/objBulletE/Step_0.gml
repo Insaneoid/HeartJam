@@ -13,4 +13,4 @@ part_type_orientation(particle1,0,0,0,0,1);
 part_type_blend(particle1,1);
 part_type_life(particle1,1,7);
 
-part_particles_create(Sname, x, y, particle1, 10);
+part_particles_create(Sname0, x, y, particle1, 10);

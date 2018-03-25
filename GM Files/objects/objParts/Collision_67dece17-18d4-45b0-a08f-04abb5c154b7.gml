@@ -12,7 +12,7 @@ with (other)
 {
 	if (keyboard_check_pressed(vk_space))
 	{
-		pick = true;
+
 		switch (other.item)
 		{
 			case "Gun":
@@ -36,8 +36,9 @@ with (other)
 				shield  = 2;
 			break;
 			case "Thruster+":
-				thrustO = 2;
-				thrust  = 2;
+				thrustO = 2.5;
+				thrust  = 2.5;
+				maxSpd	= 12;
 			break;
 		}
 		

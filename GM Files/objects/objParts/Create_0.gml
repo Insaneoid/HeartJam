@@ -3,7 +3,7 @@ dir  = irandom(359);
 spd  = irandom_range(0.1, 0.5) +0.1;
 loot = irandom(100);
 item = "Nothing";
-pick = false;
+
 depth = 0;
 
 if (loot <= 32)
@@ -23,7 +23,7 @@ else
 	item = choose("Gun+", "Shield+", "Thruster+");
 }
 
-Sname = part_system_create();
+Sname3 = part_system_create();
  particle1 = part_type_create();
 part_type_shape(particle1,pt_shape_smoke);
 part_type_size(particle1,0.10,0.10,-0.10,1);

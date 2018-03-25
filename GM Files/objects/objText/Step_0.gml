@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (distance_to_object(objPlayer) > 200)
+if(instance_exists(objPlayer))
 {
-
-	instance_destroy();
+	if (distance_to_object(objPlayer) > 260)
+	{
+		instance_destroy();
+	}
 }

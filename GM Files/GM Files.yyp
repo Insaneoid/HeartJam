@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "2db588d1-3752-4a97-a84a-219d394c9db0",
+            "Value": {
+                "id": "f0237630-8470-4b88-9bf9-463ea7d4ade8",
+                "resourcePath": "objects\\objInputBox\\objInputBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f0caea6-3b8e-4ff5-a78b-8b6a7204cbbe",
             "Value": {
                 "id": "ecf1a00c-e874-4238-ade5-b0d079371a63",
@@ -156,6 +164,14 @@
                 "id": "de7a82f9-52a6-4752-b4d4-b1bf9b57ff2f",
                 "resourcePath": "scripts\\scrGenerateWorld\\scrGenerateWorld.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2f3d358d-58bc-4372-b0a5-e6405ec67de3",
+            "Value": {
+                "id": "efad32f4-0b47-422e-9dca-25ccb6c15c79",
+                "resourcePath": "sprites\\sprTextInput\\sprTextInput.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -178,7 +194,7 @@
             "Key": "422123f9-2ec6-4a4c-8c1b-0cd591fee512",
             "Value": {
                 "id": "68171687-7a29-4da9-b51b-24a5178fee07",
-                "resourcePath": "rooms\\rmMenu\\rmMenu.yy",
+                "resourcePath": "rooms\\rmScore\\rmScore.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -244,6 +260,14 @@
                 "id": "5ec36322-c00f-43f5-ba2f-665f2644464b",
                 "resourcePath": "objects\\objPlayer\\objPlayer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "61f74948-1ad4-48c2-8cc7-8b78b3969dac",
+            "Value": {
+                "id": "d1a0d2e3-aeea-466c-aa1c-69b20711bd23",
+                "resourcePath": "rooms\\rmMenu\\rmMenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -364,6 +388,22 @@
                 "id": "f8b5a00a-d9aa-47d5-91a7-e1dd422fd5bc",
                 "resourcePath": "views\\a2a5ef69-d8a1-4f9a-b47d-4642dec1fb1a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a3951d6b-2ded-4a0b-975d-0c20b9d25c66",
+            "Value": {
+                "id": "89f6891c-98b3-42c0-b6e4-65cb8bad08e1",
+                "resourcePath": "fonts\\fnt1\\fnt1.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "a5230803-5803-4fbf-883c-73fc0ecdf457",
+            "Value": {
+                "id": "7a4e120c-d128-48c4-8d28-ca0bb0f58578",
+                "resourcePath": "datafiles_yy\\Scores.txt.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {

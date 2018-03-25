@@ -28,9 +28,9 @@ cooldown -= 1;
 
 if (distance_to_object(objPlayer) < 500)
 {
-	part_particles_create(Sname, x, y, particle1, 1);
+	part_particles_create(Sname2, x, y, particle1, 1);
 }
 
-
+move_wrap(true, true, 100);
 
 

@@ -14,11 +14,13 @@ shieldA = 0;
 thrust	= 1;
 thrustO = 1;
 
-scanner	= 1;
-scannerO= 1;
+scanner	= 0;
+scannerO= 0;
 
 active	= gun+shield+thrust+scanner;
 killme	= noone;
+
+
 // Stats
 energyMax	= 3;
 energy		= energyMax;
@@ -55,3 +57,5 @@ part_type_life(particle0,15,50);
 
 Sname1 = part_system_create();
 
+//start popup
+alarm[1] = 30;

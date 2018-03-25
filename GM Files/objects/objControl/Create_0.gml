@@ -4,3 +4,6 @@
 script_execute(scrGenerateWorld);
 
 audio_channel_num(10);
+
+global.name		= "";
+global.points	= 0;

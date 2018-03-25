@@ -56,3 +56,5 @@ layer_x("backgrounds_2", _cam_x * 0.25);
 layer_y("backgrounds_2", _cam_y * 0.25);
 layer_x("backgrounds_3", _cam_x * 0.5);
 layer_y("backgrounds_3", _cam_y * 0.5);
+
+move_wrap(true, true, 100);
