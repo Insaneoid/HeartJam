@@ -3,6 +3,9 @@
 
 display_set_gui_size(view_wport[0], view_hport[0]);
 
+camera_set_view_size(view_camera[0], view_wport[0], view_hport[0]);
+
+
 shake	= 0;
 
 shieldL = noone;

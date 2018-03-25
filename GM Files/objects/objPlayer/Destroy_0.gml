@@ -3,3 +3,4 @@
 
 part_particles_create(Sname, x, y, particle0, 20);
 audio_play_sound(explosion, 1, false);
+audio_stop_sound(thrusters);
