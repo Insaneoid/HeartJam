@@ -12,7 +12,7 @@ if (other.scanner == 1 && gameDone == false)
 if (keyboard_check_pressed(vk_space) && gameDone == false)
 {
 	global.points += habit;
-	gameDone = true;
+	global.gameDone = true;
 	if (instance_exists(objText))
 	{
 		instance_destroy(objText);
@@ -30,5 +30,5 @@ if (keyboard_check_pressed(vk_space) && gameDone == false)
 	{
 		scrTextBox("The planet looks rich in atmosphere, and has liquid water;\nall signs of a perfect world. You send the beacon and begin to\nestablish a settlement. The world provides with abundant oxygen,\nand drinkable water. A true miracle.\nCongratulations, mission success!", 1, x-50, y);
 	}
-	alarm[0] = 200;
+	alarm[0] = 300;
 }

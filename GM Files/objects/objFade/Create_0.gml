@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_create_depth(x, y, -99, objFade);
+a =0;
+fade = 1;

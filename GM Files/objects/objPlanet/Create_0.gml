@@ -3,7 +3,7 @@
 depth = 1;
 image_speed  = 0;
 image_index = irandom(9);
-gameDone = false;
+global.gameDone = false;
 
 dist  = distance_to_point(room_width div 2, room_height div 2);
 

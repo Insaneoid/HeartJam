@@ -11,12 +11,12 @@ radiusP	 = 0
 instance_create_depth(centre_x, centre_y, 2, objCam);
 instance_create_depth(centre_x, centre_y, 2, objPlayer);
 
-max_enemies		= 60;
-max_planets		= 50;
-max_parts		= 50;
+max_enemies		= 90;
+max_planets		= 70;
+max_parts		= 80;
 max_asteroids	= 60;
 
-for (i = 0; i < 6; i++)
+for (i = 0; i < 5; i++)
 {
 	
 	radiusP	= radius - (centre_x div 5) * i - 1;
