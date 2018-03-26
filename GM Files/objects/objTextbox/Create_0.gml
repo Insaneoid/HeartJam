@@ -2,12 +2,11 @@
 As seen on SlasherXGAMES
 https://www.youtube.com/user/SlasherXGAMES
 */
-if (global.gameDone == false)
+
+if (room == rmScore1)
 {
-	instance_create_depth(x,y,0,objDrawScores);
 	instance_destroy();
 }
-
 max_width=490 //maximum width
 selected=true //is the player typing here?
 blink=false //show "|"?

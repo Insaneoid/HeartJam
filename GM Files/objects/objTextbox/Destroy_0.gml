@@ -2,3 +2,4 @@
 // You can write your code in this editor
 
 instance_create_depth(x, y,0, objReturnButton);
+ instance_create_depth(x, y, -10, objDrawScores);

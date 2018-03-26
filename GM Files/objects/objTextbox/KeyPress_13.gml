@@ -42,6 +42,6 @@ if (objTextbox.txt != "")//if the name entered is not blank or too long
     ini_close();//don't forget to close
     
     //go to the room where the high scores table is shown
-    instance_create_depth(x, y, -10, objDrawScores);
+
 }
 instance_destroy();
