@@ -47,6 +47,7 @@ if (shieldA = 1)
 }
 
 // Energy Management
+if (energy < -1) {audio_play_sound(powerDown, 1, false);}
 scrEnergyManagement();
 
 // parallax

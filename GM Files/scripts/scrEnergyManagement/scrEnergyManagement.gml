@@ -11,7 +11,6 @@ with (objPlayer)
 		shieldA= 0;
 		shieldCool = 0;
 		scanner = 0;
-		audio_play_sound(powerDown, 1, false);
 	}
 	
 	if (keyboard_check_pressed(vk_up)) 

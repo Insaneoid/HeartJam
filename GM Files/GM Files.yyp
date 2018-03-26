@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "2ca4b514-a2ee-41dd-bbdc-97cf409e1cfe",
+            "Value": {
+                "id": "6b72f379-0de5-4f6c-813c-0df44a403636",
+                "resourcePath": "sounds\\menuClick\\menuClick.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2cc34a8e-d7a5-40c8-a776-88ad4e43659a",
             "Value": {
                 "id": "8d80a934-5fc6-479a-b08e-15e39ca4cc1e",
@@ -292,6 +300,14 @@
                 "id": "a688438b-4a44-4964-a290-2a27b26e98bb",
                 "resourcePath": "scripts\\scrPlayerMovement\\scrPlayerMovement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6cea841e-8157-4483-a821-cac8fe7ac7f0",
+            "Value": {
+                "id": "65e0d646-6337-4858-b549-6af9de8ea104",
+                "resourcePath": "sounds\\textBox\\textBox.yy",
+                "resourceType": "GMSound"
             }
         },
         {

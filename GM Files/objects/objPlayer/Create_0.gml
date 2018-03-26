@@ -5,17 +5,17 @@ depth	= -10;
 
 // Parts
 gun		= 0;
-gunO	= 1;
+gunO	= 0;
 
 shield	= 0;
-shieldO = 1;
+shieldO = 0;
 shieldA = 0;
 
 thrust	= 1;
 thrustO = 1;
 
 scanner	= 0;
-scannerO= 1;
+scannerO= 0;
 
 active	= gun+shield+thrust+scanner;
 killme	= noone;
