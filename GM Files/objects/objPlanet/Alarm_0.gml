@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room_goto(rmScore);
+instance_create_depth(x,y,-100, objFade);

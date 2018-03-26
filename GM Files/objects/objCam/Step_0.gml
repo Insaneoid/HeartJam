@@ -15,7 +15,9 @@ if (instance_exists(objPlayer))
 }
 else
 {
-	scrTextBox("Bad Luck.\nYou have died.\n Press Space to return to menu.", 0.7, x, y);
+	if !(instance_exists(objText)) {
+		scrTextBox("Bad Luck.\nYou have died.\nPress Space to return to menu.", 0.7, x, y);
+	}
 	if (keyboard_check_pressed(vk_space))
 	{
 		game_restart();

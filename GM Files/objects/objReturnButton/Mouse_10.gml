@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-if (cursor=="|") cursor = ""; else cursor = "|";
-alarm[0] = delay;
+mouseTouch = 1;
+audio_play_sound(menuClick, 1, false);

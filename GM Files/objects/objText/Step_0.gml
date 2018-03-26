@@ -3,7 +3,7 @@
 
 if(instance_exists(objPlayer))
 {
-	if (distance_to_object(objPlayer) > 260)
+	if (distance_to_object(objPlayer) > 400)
 	{
 		instance_destroy();
 	}

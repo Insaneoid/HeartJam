@@ -4,6 +4,6 @@ if (mouseTouch = 1)
 {
 	if (mouse_check_button_pressed(mb_left))
 	{
-		game_end();
+		room_goto(rmScore);
 	}	
 }

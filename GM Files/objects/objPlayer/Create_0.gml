@@ -1,5 +1,5 @@
 /// @description Initialise Variables
-
+image_speed = 7;
 //System
 depth	= -10;
 
